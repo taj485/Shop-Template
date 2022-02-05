@@ -47,10 +47,20 @@ nav {
     margin-top: 20px;
     margin: 10px auto;
     position:relative;
-    width:75%;
+    width:50%;
 }
 
 .products-container {
+    
+}
+
+.products-list-flex {
+    display:flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content:space-between;
+    height:175px
+    
 }
 
 
